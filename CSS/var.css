@@ -1,0 +1,43 @@
+:root {
+    --back-color: rgb(219, 203, 151);
+
+    --head-color: rgb(247, 229, 170);
+
+    --main-color: rgb(241, 217, 150);
+
+    --link-norm: rgb(233, 130, 46);
+
+    --link-hover: rgb(146, 108, 72);
+
+    --link-focus: rgb(10, 198, 255);
+
+    --link-active: rgb(3, 12, 133);
+
+    --btn-board: rgb(94, 56, 13);
+
+    --body-board:black;
+}
+
+:root {
+    --title-size:10rem;
+
+    --btn-board-weight:0.35rem;
+
+    --body-board-weight:0.2rem;
+
+    --main-board-weight:0.1rem;
+
+    --h2-size:5rem;
+
+    --h3-size:2.7rem;
+
+    --h4-size:2rem;
+
+    --h5-size:1.7rem;
+
+    --h6-size:1.5rem;
+
+    --parg-size:1rem;
+
+
+}

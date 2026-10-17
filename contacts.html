@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+    <head>
+
+        <meta
+        charset = UTF-8>
+        <title>north star bakery contacts</title>
+
+        <link rel="stylesheet"
+        href="CSS/main.css">
+
+        <script src="java.js" defer></script>
+
+    </head>
+
+
+    <body>
+
+         <a
+        href="#main">skip to the main section</a>
+
+        <br>
+
+        <a
+        href="#footer">skip to the footer</a>
+
+        <header>
+
+            <img src="gallery/bakery-logo_c.png"
+            alt=""
+            width="100"
+            height="100">
+           
+
+            <nav aria-label="additional pages">
+                
+                    <a href="about.html">about us</a>
+
+                    <br>
+                    <a href="contacts.html" aria-current="page">contact information, you are here</a>
+
+                    <br>
+                    <a href="index.html">home</a>
+
+                    <br>
+                    <a href="products.html">our products</a>
+                
+            </nav>
+
+            <picture>
+                <source
+                srcset="gallery/bakery-feature-large_c.png"
+                media="(min-width: 800px)">
+                <img src="gallery/bakery-feature-small_c.png">
+             </picture>
+
+            <h1>
+                North Star Bakery
+            </h1>
+            <P>Known for our homade baked goods.</P>
+            <p>try our fresh breads, our falky pastries, and our moist cakes like grandma used to make</p>
+
+        </header>
+
+
+        <main id="main">
+
+            <h2>
+                order request form
+            </h2>
+
+            
+
+            <!--this is a form, I want it to have,
+            first name
+            last name
+
+            phone
+            email
+
+            order
+
+            delivery location
+            delivery date
+
+            special notes
+            -->
+            <form>
+                <fieldset>
+                    <legend>order</legend>
+
+
+                <p>please select your order</p>
+
+
+                <fieldset>
+                    <legend>breads - $2.50 each</legend>
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="whole-wheat-bread">Whole wheat bread
+                </label>
+
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="italitan-bread">Italian bread
+                </label>
+
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="banana-bread">Banana bread
+                </label>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>pastries - $4 each</legend>
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="crossont">crossont
+                </label>
+
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="jelly-doughnut">jelly doughnut
+                </label>
+
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="danish">danish
+                </label>
+                </fieldset>
+
+                <br>
+
+
+                <fieldset>
+                    <legend>cakes - $10 each</legend>
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="matcha-cake">Matcha cake
+                </label>
+
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="ube-cake">Ube cake
+                </label>
+
+                <label>
+                    <input
+                    class="fillable"
+                    type="checkbox"
+                    name="order"
+                    value="strawberry-cake">Strawberry cake
+                </label>
+
+                </fieldset>
+
+                </fieldset>
+
+                <br>
+
+
+                <fieldset>
+
+                    <legend>name</legend>
+
+                <label for="first-name">First Name</label>
+                <input
+                class="fillable"
+                id="first-name"
+                type="text" 
+                name="order-first-name"
+                placeholder="firstname"
+                required>
+
+
+                <label for="last-name">Last Name</label>
+                <input
+                class="fillable"
+                id="last-name"
+                type="text"
+                name="order-last-name"
+                placeholder="lastname"
+                required>
+
+                </fieldset>
+
+
+
+                <br>
+
+                <fieldset>
+
+                    <legend> contact information </legend>
+
+                <label for="phone-number">Phone#</label>
+                <input
+                class="fillable"
+                id="phone-number"
+                type="tel"
+                name="order-phone-number"
+                placeholder="###-###-####">
+
+                <label for="email-adress">email</label>
+                <input
+                class="fillable"
+                id="email-address"
+                type="email"
+                name="order-email-adress"
+                placeholder="email"
+                required>
+
+                </fieldset>
+
+                <br>
+
+
+                <fieldset>
+
+                    <legend>delivery information</legend>
+
+                <label for="delivery-address">delivery address</label>
+                <input
+                class="fillable"
+                id="delivery-address"
+                type="text"
+                name="order-delivery-adress"
+                placeholder="address"
+                required>
+
+                <label for="delivery-date">delivery date</label>
+                <input
+                class="fillable"
+                id="delivery-date"
+                type="date"
+                name="order-delivery-date"
+                required>
+
+                <br>
+
+                <label for="special-notes">special instructions</label>
+                <textarea
+                id="special-notes"
+                name="order-special-notes"
+                placeholder="special notes"
+
+                rows="5"
+                cols="40"></textarea>
+
+                </fieldset>
+
+
+
+
+                <button
+                id="form-submit"
+                type="submit">submit here</button>
+
+                
+
+
+            </form>
+
+            <h2>location</h2>
+            <p>located at 143 bakedgoods ave Rhode Island</p>
+
+            <h2>
+                store hours
+            </h2>
+
+            <p>2pm-11pm monday-friday</p>
+
+
+
+        </main>
+        <footer id="footer">
+
+        </footer>
+
+    </body>
+
+
+
+
+</html>
